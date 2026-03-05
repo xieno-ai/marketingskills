@@ -1,0 +1,54 @@
+[
+  {
+    "id": "fb-cold-ecommerce",
+    "prompt": "Write Facebook ad copy for my skincare brand. We sell a vitamin C serum for $48. Target is women 30-55 who have tried other serums without seeing results. This is cold traffic. CTA is to buy now. Our differentiator is that we use 20% stabilized L-ascorbic acid — most competitors use 10-15%.",
+    "assertions": [
+      "Asks no clarifying questions — all required info provided",
+      "Produces at least 3 headline variants",
+      "Produces at least 2 body copy variants",
+      "Primary text stays under 2200 chars; flags if near 125 recommended",
+      "Headline stays under 40 chars; flags any overage",
+      "Description stays under 30 chars",
+      "Includes CTA button label from approved Meta list",
+      "Each variation includes a Strategic Note with angle, awareness level, platform optimization logic, and objection addressed",
+      "At least one hook uses pain/frustration angle (tried other serums, no results)",
+      "At least one hook uses proof or differentiator angle (20% vs 10-15%)",
+      "Copy names a specific benefit or outcome, not just a feature",
+      "Includes risk reversal or guarantee language in at least one variant",
+      "Mentions Meta Andromeda optimization in strategic notes (e.g., standalone headline, first 3 words)"
+    ]
+  },
+  {
+    "id": "google-b2b-saas",
+    "prompt": "I need Google Search ad copy for my HR software. It automates employee onboarding — companies using it cut onboarding time from 3 weeks to 3 days. We offer a free 30-day trial, no credit card. Target keywords: 'employee onboarding software' and 'hr onboarding tools'. Audience is HR managers at companies with 50-500 employees.",
+    "assertions": [
+      "Produces minimum 3 headlines (ideally 5+), each under 30 chars",
+      "Produces minimum 2 descriptions, each under 90 chars",
+      "Flags any asset over character limit and provides trimmed version",
+      "Includes callout extensions (25 chars max each)",
+      "Includes at least one sitelink extension with correct format (headline + 2 description lines)",
+      "Headlines are varied in angle — at least one outcome-led, one proof/number-led, one urgency/offer-led",
+      "Descriptions include the 3-week to 3-day specific claim",
+      "Mentions that each headline must function independently (Google GEM asset combination logic)",
+      "Strategic note explains why headline variety enables Google to optimize combinations",
+      "Free trial + no credit card appears in copy",
+      "Display URL path suggestion included"
+    ]
+  },
+  {
+    "id": "warm-retargeting-coaching",
+    "prompt": "Write retargeting ads for Facebook for my business coaching program. These people visited my sales page but didn't buy. Price is $2,997. They've seen our brand before. Offer includes: 12 weeks of group coaching, weekly live calls, a private community, and a 100% money-back guarantee if they don't see results in 90 days.",
+    "assertions": [
+      "Recognizes warm audience and selects Product-Aware or Most-Aware angle",
+      "Does not use cold-traffic curiosity hooks — these people know the brand",
+      "Prominently features the money-back guarantee (risk reversal)",
+      "Value stacks the offer components (coaching, calls, community) to justify $2,997",
+      "Includes at least one social proof element or results reference",
+      "Includes urgency or scarcity if applicable, or explains why not",
+      "Produces 3 headline variants and 2 body copy variants",
+      "All field formats and character limits correct for Facebook",
+      "Strategic note identifies this as warm retargeting and explains why the angle matches that awareness level",
+      "Addresses price objection either through value stacking, guarantee, or ROI framing"
+    ]
+  }
+]
